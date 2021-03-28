@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.banner{
+	justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.landing-title {
+	font-size: 50px;
+	font-weight: 400;
+	text-decoration: overline;
+}
+
 .about-detials {
 	padding-top: 90px !important;
 }
@@ -2648,7 +2660,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 1em 1em 3em 1em;
 		text-align: center;
 	}
 
