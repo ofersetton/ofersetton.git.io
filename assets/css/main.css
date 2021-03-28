@@ -7,6 +7,33 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+.carasal-item{
+	display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.carasal-item >img{
+    width: 100%;
+}
+
+#banner-cape-point {
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-color: #645862;
+	background-image: url(""), url(""), url("images/cape_point/title_image.jpg"), url("../../images/cape_point/title_image.jpg");
+	background-position: bottom left, bottom right, top left, top center;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: #fff;
+	cursor: default;
+	padding: 6em 0;
+	text-align: center;
+	height: 70vh;
+}
+
 .banner{
 	justify-content: center;
     align-items: center;
@@ -32,7 +59,7 @@
 	color: grey;
 }
 
-.logo.home, .nav-bar.home a{
+.logo.white, .nav-bar.white a{
 	color: white;
 }
 
@@ -112,7 +139,6 @@ input, select, textarea {
 	}
 
 	body {
-		/* background-image: url(""), url(""), url("images/landing/landing.jpg"), url("../../images/landing/landing.jpg"); */
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
